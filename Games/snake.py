@@ -48,7 +48,7 @@ def move():
 
     square(food.x, food.y, 9, 'red')
     update()
-    ontimer(move, 200)
+    ontimer(move, 150)
 
 
 hideturtle()
